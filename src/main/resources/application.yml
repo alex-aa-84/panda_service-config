@@ -1,6 +1,3 @@
-server:
-  port: 7000
-
 spring:
   cloud:
     config:
@@ -12,5 +9,5 @@ spring:
           password: ${GIT_PASSWORD}
   security:
     user:
-      name: root
-      password: P@nd@WWF_M
+      name: ${EUR_USER}
+      password: ${EUR_PASS}
